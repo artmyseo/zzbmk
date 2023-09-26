@@ -79,6 +79,63 @@ body{
     background-size: cover;
     border-radius: 90px 110px; 
 } */
+.bluefullcont{
+    background-color: #022149;
+    padding: 100px;
+}
+
+.cardprodmain{
+    width:350px;
+    height: 263px;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color:  rgba(0,0,0,.4);
+    background-clip: border-box;
+}
+
+.cardprodmain-body{
+    height: 263px;
+    margin: 20px 15px 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardprodmain-body h4{
+    color: #fff;
+}    
+
+.cardprodmain-title{
+    color: #fff;
+    height: 263px;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content:center;
+}
+
+#firstcardprodmain{
+    background-image: url(img/photo-21.jpg);
+    width:350px;
+    height: 263px;
+}
+
+#secondcardprodmain{
+    background-image: url(img/photo-22.jpg);
+    width:350px;
+    height: 263px;
+}
+
+#thirdcardprodmain{
+    background-image: url(img/photo-23.jpg);
+    width:350px;
+    height: 263px;
+}
 
 .banner{
     background-image: url(img/main-cuted-2.jpg);
