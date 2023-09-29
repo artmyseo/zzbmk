@@ -8,6 +8,16 @@ body{
 .padding{
     padding-bottom: 90px;
 }
+.navbar{
+    padding: 0.1rem 0.1rem !important;
+}
+.navbar-gray{
+    background-color: #e7eaf1;
+    color: #8c94a8;
+}
+.navtopbarpadding{
+    padding-left: 250px;
+}
 .megamenu-img{
     background-image:linear-gradient(rgba(13, 106, 228, 0.8), rgba(13, 106, 228, 0.8)), url(img/meg.jpg);
     background-size: cover;
@@ -16,7 +26,6 @@ body{
     background-position: center;
     position: relative;
     margin-bottom: -9px;
-
 }
 .megamenu-title{
     position: absolute;
