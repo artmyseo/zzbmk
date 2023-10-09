@@ -147,11 +147,28 @@ body{
 }
 
 .banner{
-    background-image: url(img/main-cuted-2.jpg);
+    background-image: url(img/main-cuted-3.jpg);
     width: 100%;
     height: 500px;
     background-position: center;
     background-size: cover;
+}
+
+.mainbanner_titletext{
+    margin: 50px 0 0 0;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.mainbanner_titletext div{
+    margin-top:18px;
+}
+
+.mainbanner_titletext div span{
+    color: #fff;
+    background-color: #007bff;
+    padding: 0 10px;
 }
 
 .leadbackpage{
