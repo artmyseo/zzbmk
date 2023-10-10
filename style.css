@@ -26,11 +26,16 @@ body{
 }
 .navbar-gray{
     background-color: #e7eaf1;
-    color: #444;
+    color: #000;
     font-family: 'Onest', sans-serif;
     font-weight: 400;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #444;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+}
 .img-logo{
     margin-top: -30px;
 }
