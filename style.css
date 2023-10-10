@@ -5,18 +5,38 @@
 body{
  background-color: #F1F4F8;
 }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Onest', sans-serif;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
 .padding{
     padding-bottom: 90px;
 }
+
 .navbar{
     padding: 0.1rem 0.1rem !important;
 }
 .navbar-gray{
     background-color: #e7eaf1;
-    color: #8c94a8;
+    color: #444;
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
 }
+
+.img-logo{
+    margin-top: -30px;
+}
+
 .navtopbarpadding{
-    padding-left: 250px;
+    padding-left: 350px;
 }
 .megamenu-img{
     background-image:linear-gradient(rgba(13, 106, 228, 0.8), rgba(13, 106, 228, 0.8)), url(img/meg.jpg);
@@ -93,9 +113,20 @@ body{
     padding: 100px;
 }
 
+.counterblock{
+    display: flex;
+    justify-content: space-around;
+}
+
+.counterblock_list-inline-item .counter{
+    color: #007bff;
+    font-size: 5rem;
+}
+
+
 .cardprodmain{
-    width:350px;
-    height: 263px;
+    width:100%;
+    height: 350px;
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -108,7 +139,7 @@ body{
 }
 
 .cardprodmain-body{
-    height: 263px;
+    height: 350px;
     margin: 20px 15px 10px;
     display:flex;
     flex-direction: column;
@@ -130,20 +161,26 @@ body{
 
 #firstcardprodmain{
     background-image: url(img/photo-21.jpg);
-    width:350px;
-    height: 263px;
+    background-size: cover;
+    width:100%;
+    max-width:350px;
+    height: 350px;
 }
 
 #secondcardprodmain{
     background-image: url(img/photo-22.jpg);
-    width:350px;
-    height: 263px;
+    background-size: cover;
+    width:100%;
+    max-width:350px;
+    height: 350px;
 }
 
 #thirdcardprodmain{
     background-image: url(img/photo-23.jpg);
-    width:350px;
-    height: 263px;
+    background-size: cover;
+    width:100%;
+    max-width:350px;
+    height: 350px;
 }
 
 .banner{
@@ -171,6 +208,27 @@ body{
     padding: 0 10px;
 }
 
+.aboutcompanymain p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.blockquote {
+    font-size: 1.25rem;
+    font-weight: 300;
+}   
+
+.three-column-left_icons{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.three-column-left_icons i{
+    color: #007bff;
+    font-size: 3.5em;
+}
+
+
 .leadbackpage{
     background-image: url(img/fontitlepage.jpg);
     width: 100%;
@@ -188,6 +246,11 @@ body{
 .leadbackpage_title h1{
     color: #fff;
     font-size: 1.8rem;
+}
+
+.main-content{
+    font-size: 1.1rem;
+    color: #444;
 }
 
 .two-right{
@@ -288,18 +351,28 @@ body{
 
 
 footer{
-    background-image: url(img/svg.svg);
+/*    background-image: url(img/svg.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #022149;
     width: 100%;
     height: 400px;
-    padding-top: 120px;
+    padding-top: 70px;
 }
 
 .list-footer{
     color: #fff;
     padding-left: 0;
     list-style: none;
+}
+
+.footer-contacts{
+    color: #fff;
+}
+
+.footer-contacts i {
+    color: #007bff;
+    font-size: 22px;
 }
 
 
