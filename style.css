@@ -258,6 +258,17 @@ body{
     color: #444;
 }
 
+#contactspage {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+#contactspage i{
+    font-size: 2rem;
+    color: #007bff;
+  }
+
+
 .two-right{
 
     perspective: 800px;
@@ -336,7 +347,6 @@ body{
   .flickity-prev-next-button.next {
     right: 2px;
   }
-
 
 
 
